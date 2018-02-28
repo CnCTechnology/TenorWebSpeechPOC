@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
-var apiaiHelper = require('../speechRecognition/apiaiHelper');
+var apiaiHelper = require('./service/apiaiHelper');
 
 var app = express();
 
